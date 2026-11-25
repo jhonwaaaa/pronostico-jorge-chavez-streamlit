@@ -1,0 +1,16 @@
+STREAMLIT AUTOMATICO - AEROPUERTO JORGE CHAVEZ
+
+En GitHub, repositorio jhonwaaaa/pronostico-jorge-chavez-streamlit:
+1. Reemplazar app.py por el archivo app.py de este ZIP.
+2. Reemplazar requirements.txt por el incluido en este ZIP.
+3. Subir pasajeros_jorge_chavez_2009_2025.xlsx a la raiz del repositorio.
+4. CONSERVAR el modelo_f_jorge_chavez.joblib ya cargado en GitHub.
+5. Streamlit (Python 3.13) vuelve a desplegar los cambios del repositorio.
+
+Para probar:
+- Pronostico enero 2025: debe leer diciembre 2024 = 643137; resultado aproximado = 607531.
+- Pronostico agosto 2025: debe leer julio 2025 = 717289; resultado aproximado = 717376.
+- Pronostico enero 2026: debe leer diciembre 2025 = 666351; no se admiten otros meses de 2026.
+
+El archivo XLSX incluido es una copia SIN CAMBIOS del original del MTC proporcionado.
+El modelo F se conserva tal como esta (sin reentrenar ni modificar sus coeficientes).
